@@ -1,0 +1,188 @@
+/* Mobile Device Start*/
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo {
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+        margin-right: -150px;
+        cursor: pointer;
+    }
+    header .nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #4a69bd;
+        top: 54px;
+        left: -200%;
+        transition: all 0.3s;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    #check:checked ~ ul {
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    header .nav ul li a {
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+        margin-top: 50px;
+        line-height: 40px;
+    }
+
+    .section1 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .section1 .half1{
+        margin: auto;
+        padding: 0;
+    }
+    .section1 .half1 h3 {
+        padding-top: 40px;
+        
+    }
+    .section1 .half1  h1{
+        font-size: 30px;    
+    }
+    .section1 .half1  p{
+        text-align: left;
+    }
+    
+    .section1 .half2 img{
+        
+        margin-left: 140px;
+    }
+    .section2 {
+        width: 100%;
+        height: 90vh;
+        display: block;
+        margin-top: 150px;
+        position: relative;
+    }
+    .section2 div {
+        width: 100%;
+    }
+    .section2 div .img2{
+        width: 500px;
+        height: auto;
+        margin-left: 50px;
+    }
+    .section2 h3{
+        text-align: center;
+    }
+    .section2 h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .section2 p{
+        text-align: center;
+        margin: auto;
+    }
+    .section2 input{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .section3 .text1 h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .section3 .text1 p{
+        text-align: center;
+        margin: auto;
+        width: 80%;
+    }
+    .section3 .serv1 div, .section3 .serv2 div{
+        display: block;
+        width: 90%;
+        height: auto;
+        position: relative;
+    }
+    .section4 {
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        margin-top: 100px;
+    }
+    .section4 div{
+        clear: both;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        position: relative;
+    }
+    .section5 .text5 h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .section6 .text6{
+        width: 100%;
+        height: 100px;
+        display: block;
+    }
+    .section6 .text6 p{
+        width: 90%;
+        margin: auto;
+        font-size: 12px;
+    }
+    .section6 .card{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+        left: 90px;
+    }
+    .section6 .card .card1{
+        width: 60%;
+        height: auto;
+        position: relative;
+       display: block;
+       margin-top: 50px;
+       margin-left: 40px;
+       
+    }
+    footer{
+        width: 100%;
+        height: 150vh;
+        position: relative;
+        top: 80em;
+    }
+    footer .foot{
+        width: 80%;
+        top: 0px;
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: auto;
+    }
+    footer .foot .foot1{
+        width: 100%;
+        align-items: left;
+        justify-content: left;
+        align-items: left;
+        display: block;
+    }
+    .foot .foot1 p{
+        padding-bottom: 0;
+    }
+    }
+
+/*Mobile Device End*/

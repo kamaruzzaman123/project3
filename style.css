@@ -1,0 +1,448 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+   width: 100%;
+   height: 70px; 
+   position: fixed;
+   top: 0;
+   background-color: white;
+   z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(39, 35, 35);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: #8294FF;
+}
+
+.checkbtn {
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -120px;
+}
+#check {
+    display: none;
+}
+/*section one start*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.half1, .half2{
+width: 50%;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 60px;
+}
+.half1 p{
+    color: rgb(65, 62, 62, 0.7);
+}
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8195FF;
+    outline: none;
+    color: white;
+    border: 1px solid #8195FF;
+    font-size: 15px;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(131, 145, 255, 0.5);
+    transition: all 5s ease-in 0.1;
+    outline: none;
+    cursor: pointer;
+}
+/*section one end*/
+/*section two start*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section2 img{
+    max-width: 80%;
+    height: auto;
+}
+.section2 .img{
+    padding-left: 150px;
+}
+.section2 h3{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+.section2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.section2 p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 80%; 
+}
+.section2 input{
+    font-size: 15px;
+    padding: 12px 15px;
+    outline: none;
+    color: white;
+    background-color: #8195FF;
+    border: none;
+}
+.section2 input:hover{
+    box-shadow: 5px 10px 30px rgba(131, 145, 255, 0.5);
+    transition: all 5s ease-in 0.1;
+    outline: none;
+    cursor: pointer;
+}
+/*section two end*/
+/*sectiin three start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text1 h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.section3 .text1 p{
+    width: 670px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+}
+.service {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.serv1, .serv2{
+    width: 100%;
+    overflow: hidden;
+}
+.serv2{
+    padding-top: 30px;
+}
+.serv1 div, .serv2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.service h1{
+    color: rgba(0, 0, 0, 0.9);
+}
+.service p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.serv1 div:hover{
+    background-color: #8195FF;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+
+}
+.serv2 div:hover{
+    background-color: #8195FF;
+    border-radius: 20px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+}
+.serv1 div:hover i{
+    color: white;
+}
+.serv1 div:hover h1{
+    color: white;
+    cursor: pointer;
+}
+.serv1 div:hover p{
+    color: white;
+}
+
+.serv2 div:hover i{
+    color: white;
+}
+.serv2 div:hover h1{
+    color: white;
+    cursor: pointer;
+}
+.serv2 div:hover p{
+    color: white;
+}
+/*section three end*/
+
+/*section four start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8195FF;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 220px;
+}
+.section4 h1, p{
+    text-align: center;
+    color: white;
+}
+.section4 h1{
+    font-size: 50px;
+    line-height: 0px;
+}
+/*section four End*/
+
+/*portfolio part start*/
+.section5 .text5 h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+.section5 .text5{
+    padding: 100px 0;
+}
+.section5 .text5 p{
+    line-height: 0px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .imgs{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgs div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 90px;
+    padding-right: 25px;
+}
+.section5 .imgs h1{
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 .imgs p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 0;
+}
+.section5 figure {
+    background: linear-gradient(40deg, #8195FF 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure img:hover{
+    opacity: 0.3;
+    transition: all .3s ease-in;
+}
+/*portfolio part End*/
+
+/*pricing part start*/
+.section6{
+    width: 100%;
+    height: 700px;
+}
+.section6 .text6{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    line-height: 0px;
+}
+.section6 .text6 h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.section6 .text6 p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 0px;
+}
+.section6 .card{
+    width: 60%;
+    height: 600px;
+    background-color: #F9F9FF;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.section6 .card p{
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.section6  .card .card1{
+    width: 300px;
+    height: 550px;
+    background-color: #f5f6fa;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding-bottom: 15px;
+
+}
+.section6 .card .card1 h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+ .section6 .card1 input{
+    outline: none;
+    color: white;
+    background-color: #fd79a8;
+    font-size: 25px;
+    padding: 6px 40px;
+    border: 1px solid #74b9ff;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .section6 .card1:hover{
+    background-color: #9AECDB;
+    color: whitesmoke;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.5);
+ }
+ .section6 .card .card1:hover p {
+    color: whitesmoke;
+ }
+ .section6 .card .card1:hover input{
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #f5f6fa;
+ }
+/*pricing part End*/
+
+/*Footer part Start*/
+footer{
+    background-color: #182C61;
+    width: 100%;
+    height: 300px;
+    margin-top: 300px;
+    color: white;
+    
+    position: absolute;
+    padding: 100px 0px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    color: white;
+    background-color: #8195FF;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+footer .foot .foot1 i{
+    padding: 2px 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+footer .foot .foot1 i:hover{
+    color: #8195FF;
+}
+/*Footer part End*/
